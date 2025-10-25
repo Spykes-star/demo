@@ -1,0 +1,145 @@
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\Hinhanh\nemchua.jpg
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\BookingPR.exe.config
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\BookingPR.exe
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\BookingPR.pdb
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.BonusSkins.v22.2.dll
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.Data.v22.2.dll
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.Drawing.v22.2.dll
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.Utils.v22.2.dll
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.XtraBars.v22.2.dll
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\EntityFramework.dll
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.Data.v22.2.xml
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.Utils.v22.2.xml
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.XtraBars.v22.2.xml
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\EntityFramework.xml
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.csproj.AssemblyReference.cache
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.Booking1.resources
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.Booking2.resources
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.Booking3.resources
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.BookingUC.resources
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.Form1.resources
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.MenuUC.resources
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.Properties.Resources.resources
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.HomeUC.resources
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.csproj.GenerateResource.cache
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.exe.licenses
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.csproj.Up2Date
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.exe
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.pdb
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.exe.config
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.LoginUC.resources
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.LichsuUC.resources
+C:\Users\pc\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Booking\BookingPR\obj\Debug\BookingPR.DangKycs.resources
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\Hinhanh\nemchua.jpg
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\BookingPR.exe.config
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\BookingPR.exe
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\BookingPR.pdb
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.BonusSkins.v22.2.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Data.v22.2.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Drawing.v22.2.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Utils.v22.2.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.XtraBars.v22.2.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\EntityFramework.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Data.v22.2.xml
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Utils.v22.2.xml
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.XtraBars.v22.2.xml
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\EntityFramework.xml
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.csproj.AssemblyReference.cache
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.exe.config
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.Booking1.resources
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.Booking2.resources
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.Booking3.resources
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.BookingUC.resources
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.DangKycs.resources
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.Form1.resources
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.LichsuUC.resources
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.LoginUC.resources
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.MenuUC.resources
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.Properties.Resources.resources
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.HomeUC.resources
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.csproj.GenerateResource.cache
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.exe.licenses
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.csproj.CoreCompileInputs.cache
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.csproj.Up2Date
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.exe
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.pdb
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\EnvDTE.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
