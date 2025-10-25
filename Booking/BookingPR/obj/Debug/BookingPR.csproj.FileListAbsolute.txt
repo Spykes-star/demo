@@ -74,7 +74,6 @@ C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\EntityFramework.SqlServer
 C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
 C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
 C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.csproj.AssemblyReference.cache
-C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.exe.config
 C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.Booking1.resources
 C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.Booking2.resources
 C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.Booking3.resources
@@ -143,3 +142,9 @@ C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\pt\Microsoft.ReportViewer
 C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.DoanhThu.resources
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.FormAdmin.resources
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.SoLuongMon.resources
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\Reports\DoanhThu.rdlc
+C:\Users\Goat\source\repos\Booking\BookingPR\bin\Debug\Reports\SoLuongMon.rdlc
+C:\Users\Goat\source\repos\Booking\BookingPR\obj\Debug\BookingPR.exe.config

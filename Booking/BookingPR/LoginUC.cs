@@ -47,18 +47,39 @@ namespace BookingPR
 
                     if (kh != null)
                     {
-                        // ✅ Lưu thông tin khách hàng đăng nhập
+                        // Save current user
                         CurrentUser.KhachHienTai = kh;
 
-                        XtraMessageBox.Show($"Đăng nhập thành công! Xin chào {kh.HoTen}.",
-                            "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                        // 🔄 Kích hoạt event để mở BookingUC
-                        OnLoginSuccess?.Invoke(kh);
                         var mainForm = this.FindForm() as Form1;
-                        if (mainForm != null)
+
+                        if (kh.IsAdmin)
                         {
-                            mainForm.navigationFrame1.SelectedPage = mainForm.pageHome;
+                            XtraMessageBox.Show($"Đăng nhập admin thành công! Xin chào {kh.HoTen}.",
+                                "Admin", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                            // Show the admin form modal and owned by main form if available
+                            var adminForm = new FormAdmin();
+                            if (mainForm != null)
+                                adminForm.ShowDialog(mainForm);
+                            else
+                                adminForm.ShowDialog();
+
+                            // After admin form is closed, still trigger login success behavior
+                            OnLoginSuccess?.Invoke(kh);
+                            if (mainForm != null)
+                                mainForm.navigationFrame1.SelectedPage = mainForm.pageHome;
+                        }
+                        else
+                        {
+                            XtraMessageBox.Show($"Đăng nhập thành công! Xin chào {kh.HoTen}.",
+                                "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                            // Trigger success event and navigate to home
+                            OnLoginSuccess?.Invoke(kh);
+                            if (mainForm != null)
+                            {
+                                mainForm.navigationFrame1.SelectedPage = mainForm.pageHome;
+                            }
                         }
                     }
                     else

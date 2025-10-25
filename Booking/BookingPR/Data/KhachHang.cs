@@ -31,6 +31,7 @@ namespace BookingPR.Data
         [Required]
         [StringLength(100)]
         public string MatKhau { get; set; }
+        public bool IsAdmin { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<DatBan> DatBan { get; set; }

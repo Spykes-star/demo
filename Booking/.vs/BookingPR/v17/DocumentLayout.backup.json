@@ -3,40 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\Goat\\source\\repos\\Booking\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|c:\\users\\goat\\source\\repos\\booking\\bookingpr\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|c:\\users\\goat\\source\\repos\\booking\\bookingpr\\doanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\doanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|c:\\users\\goat\\source\\repos\\booking\\bookingpr\\doanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\doanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|c:\\users\\goat\\source\\repos\\booking\\bookingpr\\soluongmon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\soluongmon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|c:\\users\\goat\\source\\repos\\booking\\bookingpr\\soluongmon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\soluongmon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|c:\\users\\goat\\source\\repos\\booking\\bookingpr\\doanhthu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\doanhthu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|c:\\users\\goat\\source\\repos\\booking\\bookingpr\\soluongmon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\soluongmon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|c:\\users\\goat\\source\\repos\\booking\\bookingpr\\formadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\formadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|c:\\users\\goat\\source\\repos\\booking\\bookingpr\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|c:\\users\\goat\\source\\repos\\booking\\bookingpr\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\booking3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\booking3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|c:\\users\\goat\\source\\repos\\booking\\bookingpr\\booking1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\booking1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\booking1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\booking1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\booking1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\booking2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\booking2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|c:\\users\\goat\\source\\repos\\booking\\bookingpr\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\loginuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\loginuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\dangkycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\dangkycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\lichsuuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\lichsuuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\booking2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\booking2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\lichsuuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\lichsuuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\lichsuuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\lichsuuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\booking1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\booking1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\dangkycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\dangkycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\booking2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\dangkycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\dangkycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|C:\\Users\\Goat\\source\\repos\\Booking\\bookingpr\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0EC67F4-3330-43B8-B7F8-514F19D2AA85}|BookingPR\\BookingPR.csproj|solutionrelative:bookingpr\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,19 +98,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\App.config",
-              "RelativeDocumentMoniker": "BookingPR\\App.config",
-              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\App.config",
-              "RelativeToolTip": "BookingPR\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-10-25T07:51:25.642Z",
+              "DocumentIndex": 5,
+              "Title": "SoLuongMon.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\SoLuongMon.Designer.cs",
+              "RelativeDocumentMoniker": "BookingPR\\SoLuongMon.Designer.cs",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\SoLuongMon.Designer.cs",
+              "RelativeToolTip": "BookingPR\\SoLuongMon.Designer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T10:31:11.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoanhThu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\DoanhThu.cs",
+              "RelativeDocumentMoniker": "BookingPR\\DoanhThu.cs",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\DoanhThu.cs [Design]",
+              "RelativeToolTip": "BookingPR\\DoanhThu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T10:01:52.892Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoanhThu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\DoanhThu.Designer.cs",
+              "RelativeDocumentMoniker": "BookingPR\\DoanhThu.Designer.cs",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\DoanhThu.Designer.cs",
+              "RelativeToolTip": "BookingPR\\DoanhThu.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T10:34:58.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SoLuongMon.cs",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\SoLuongMon.cs",
+              "RelativeDocumentMoniker": "BookingPR\\SoLuongMon.cs",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\SoLuongMon.cs",
+              "RelativeToolTip": "BookingPR\\SoLuongMon.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAwwAUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T10:19:21.377Z",
               "EditorCaption": ""
             },
             {
@@ -83,32 +161,171 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "SoLuongMon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\SoLuongMon.cs",
+              "RelativeDocumentMoniker": "BookingPR\\SoLuongMon.cs",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\SoLuongMon.cs [Design]",
+              "RelativeToolTip": "BookingPR\\SoLuongMon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T10:06:34.342Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoanhThu.cs",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\DoanhThu.cs",
+              "RelativeDocumentMoniker": "BookingPR\\DoanhThu.cs",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\DoanhThu.cs",
+              "RelativeToolTip": "BookingPR\\DoanhThu.cs",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAAACQBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T10:02:01.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormAdmin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\FormAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "BookingPR\\FormAdmin.Designer.cs",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\FormAdmin.Designer.cs",
+              "RelativeToolTip": "BookingPR\\FormAdmin.Designer.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T10:23:17.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\FormAdmin.cs",
+              "RelativeDocumentMoniker": "BookingPR\\FormAdmin.cs",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\FormAdmin.cs",
+              "RelativeToolTip": "BookingPR\\FormAdmin.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T09:23:24.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\FormAdmin.cs",
+              "RelativeDocumentMoniker": "BookingPR\\FormAdmin.cs",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\FormAdmin.cs [Design]",
+              "RelativeToolTip": "BookingPR\\FormAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T09:23:12.494Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\App.config",
+              "RelativeDocumentMoniker": "BookingPR\\App.config",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\App.config",
+              "RelativeToolTip": "BookingPR\\App.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-25T07:51:25.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Booking3.cs",
               "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Booking3.cs",
               "RelativeDocumentMoniker": "BookingPR\\Booking3.cs",
               "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Booking3.cs",
               "RelativeToolTip": "BookingPR\\Booking3.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFUAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAFUAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T01:26:22.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Booking2.cs",
-              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Booking2.cs",
-              "RelativeDocumentMoniker": "BookingPR\\Booking2.cs",
-              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Booking2.cs",
-              "RelativeToolTip": "BookingPR\\Booking2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Booking1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Booking1.cs",
+              "RelativeDocumentMoniker": "BookingPR\\Booking1.cs",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Booking1.cs [Design]",
+              "RelativeToolTip": "BookingPR\\Booking1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T01:25:58.475Z"
+              "WhenOpened": "2025-10-20T05:45:20.044Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
+              "Title": "Booking2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Booking2.cs",
+              "RelativeDocumentMoniker": "BookingPR\\Booking2.cs",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Booking2.cs [Design]",
+              "RelativeToolTip": "BookingPR\\Booking2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T05:45:19.189Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LichsuUC.cs",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\LichsuUC.cs",
+              "RelativeDocumentMoniker": "BookingPR\\LichsuUC.cs",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\LichsuUC.cs",
+              "RelativeToolTip": "BookingPR\\LichsuUC.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T03:04:05.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginUC.cs",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\LoginUC.cs",
+              "RelativeDocumentMoniker": "BookingPR\\LoginUC.cs",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\LoginUC.cs",
+              "RelativeToolTip": "BookingPR\\LoginUC.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAF8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:25:42.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LichsuUC.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\LichsuUC.cs",
+              "RelativeDocumentMoniker": "BookingPR\\LichsuUC.cs",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\LichsuUC.cs [Design]",
+              "RelativeToolTip": "BookingPR\\LichsuUC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T03:04:00.748Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Data\\KhachHang.cs",
+              "RelativeDocumentMoniker": "BookingPR\\Data\\KhachHang.cs",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Data\\KhachHang.cs",
+              "RelativeToolTip": "BookingPR\\Data\\KhachHang.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:07:43.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Booking1.cs",
               "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Booking1.cs",
               "RelativeDocumentMoniker": "BookingPR\\Booking1.cs",
@@ -121,87 +338,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Booking1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Booking1.cs",
-              "RelativeDocumentMoniker": "BookingPR\\Booking1.cs",
-              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Booking1.cs [Design]",
-              "RelativeToolTip": "BookingPR\\Booking1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T05:45:20.044Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Booking2.cs [Design]",
+              "DocumentIndex": 19,
+              "Title": "Booking2.cs",
               "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Booking2.cs",
               "RelativeDocumentMoniker": "BookingPR\\Booking2.cs",
-              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Booking2.cs [Design]",
-              "RelativeToolTip": "BookingPR\\Booking2.cs [Design]",
+              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Booking2.cs",
+              "RelativeToolTip": "BookingPR\\Booking2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T05:45:19.189Z"
+              "WhenOpened": "2025-10-25T01:25:58.475Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LichsuUC.cs",
-              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\LichsuUC.cs",
-              "RelativeDocumentMoniker": "BookingPR\\LichsuUC.cs",
-              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\LichsuUC.cs",
-              "RelativeToolTip": "BookingPR\\LichsuUC.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T03:04:05.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LichsuUC.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\LichsuUC.cs",
-              "RelativeDocumentMoniker": "BookingPR\\LichsuUC.cs",
-              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\LichsuUC.cs [Design]",
-              "RelativeToolTip": "BookingPR\\LichsuUC.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T03:04:00.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "DangKycs.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\DangKycs.cs",
               "RelativeDocumentMoniker": "BookingPR\\DangKycs.cs",
               "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\DangKycs.cs [Design]",
               "RelativeToolTip": "BookingPR\\DangKycs.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T03:00:51.924Z"
+              "WhenOpened": "2025-10-20T03:00:51.924Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginUC.cs",
-              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\LoginUC.cs",
-              "RelativeDocumentMoniker": "BookingPR\\LoginUC.cs",
-              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\LoginUC.cs",
-              "RelativeToolTip": "BookingPR\\LoginUC.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T16:25:42.904Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "LoginUC.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\LoginUC.cs",
               "RelativeDocumentMoniker": "BookingPR\\LoginUC.cs",
               "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\LoginUC.cs [Design]",
               "RelativeToolTip": "BookingPR\\LoginUC.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T16:25:41.412Z"
+              "WhenOpened": "2025-10-19T16:25:41.412Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "DangKycs.cs",
               "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\DangKycs.cs",
               "RelativeDocumentMoniker": "BookingPR\\DangKycs.cs",
@@ -209,19 +383,8 @@
               "RelativeToolTip": "BookingPR\\DangKycs.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAACoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T16:11:32.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "KhachHang.cs",
-              "DocumentMoniker": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Data\\KhachHang.cs",
-              "RelativeDocumentMoniker": "BookingPR\\Data\\KhachHang.cs",
-              "ToolTip": "C:\\Users\\Goat\\source\\repos\\Booking\\BookingPR\\Data\\KhachHang.cs",
-              "RelativeToolTip": "BookingPR\\Data\\KhachHang.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T16:07:43.769Z"
+              "WhenOpened": "2025-10-19T16:11:32.682Z",
+              "EditorCaption": ""
             }
           ]
         },
