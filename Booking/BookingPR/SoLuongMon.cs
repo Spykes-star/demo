@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Collections.Generic;
 
 namespace BookingPR
 {
@@ -27,8 +26,6 @@ namespace BookingPR
             InitializeComponent();
             InitializeToolbar();
             ApplyModernTheme();
-
-            // Auto run when first shown
             this.Shown += SoLuongMon_Shown;
         }
 
@@ -39,7 +36,7 @@ namespace BookingPR
             await RunReportAsync();
         }
 
-        // 💠 Thiết kế Toolbar hiện đại
+        // 🎨 Toolbar hiện đại
         private void InitializeToolbar()
         {
             toolbarPanel = new Panel
@@ -50,7 +47,7 @@ namespace BookingPR
                 Padding = new Padding(15, 10, 15, 10)
             };
 
-            // Shadow nhẹ dưới thanh toolbar
+            // Bóng mờ nhẹ
             toolbarPanel.Paint += (s, e) =>
             {
                 using (var shadow = new LinearGradientBrush(new Rectangle(0, toolbarPanel.Height - 5, toolbarPanel.Width, 5),
@@ -98,7 +95,7 @@ namespace BookingPR
                 Font = new Font("Segoe UI", 10F)
             };
 
-            // Khi chọn month, chuyển về MM/yyyy updown
+            // Khi chọn tháng, hiển thị MM/yyyy
             rbMonth.CheckedChanged += (s, e) =>
             {
                 if (rbMonth.Checked)
@@ -131,7 +128,6 @@ namespace BookingPR
             btnRun.FlatAppearance.MouseOverBackColor = Color.FromArgb(0, 100, 190);
             btnRun.Click += async (s, e) => await RunReportAsync();
 
-            // ProgressBar nhỏ hiển thị khi đang xử lý
             progressBar = new ProgressBar
             {
                 Style = ProgressBarStyle.Marquee,
@@ -149,7 +145,6 @@ namespace BookingPR
             toolbarPanel.Controls.Add(btnRun);
             toolbarPanel.Controls.Add(progressBar);
 
-            // Nếu reportViewer có sẵn, dock nó bên dưới
             if (this.Controls.Contains(reportViewer1))
             {
                 reportViewer1.Dock = DockStyle.Fill;
@@ -162,7 +157,7 @@ namespace BookingPR
             }
         }
 
-        // 🎨 Áp dụng theme nhẹ cho Form tổng thể
+        // Giao diện tổng thể
         private void ApplyModernTheme()
         {
             this.BackColor = Color.FromArgb(245, 247, 250);
@@ -170,18 +165,19 @@ namespace BookingPR
             this.Padding = new Padding(5);
         }
 
-        // ⚙️ Sửa: tính toán trên bộ nhớ để tránh lỗi dịch LINQ sang SQL
+        // ⚙️ Xử lý báo cáo
         private async Task RunReportAsync()
         {
             btnRun.Enabled = false;
             progressBar.Visible = true;
+
             try
             {
                 var rdlcPath = Path.Combine(Application.StartupPath, "Reports", "SoLuongMon.rdlc");
                 if (!File.Exists(rdlcPath))
                 {
-                    MessageBox.Show($"File báo cáo không tìm thấy:\n{rdlcPath}\n\nSet Build Action = Content và Copy to Output Directory = Copy if newer.",
-                        "File RDLC thiếu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Không tìm thấy file báo cáo:\n{rdlcPath}\n\nKiểm tra Build Action = Content, Copy to Output Directory = Copy if newer.",
+                        "Thiếu RDLC", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
@@ -192,66 +188,59 @@ namespace BookingPR
 
                 using (var db = new Model1())
                 {
-                    // Build start/end to be fully translatable by EF
                     DateTime start, end;
                     if (rbDay.Checked)
                     {
-                        var date = dtPicker.Value.Date;
-                        start = date;
+                        start = dtPicker.Value.Date;
                         end = start.AddDays(1);
                     }
                     else
                     {
-                        int month = dtPicker.Value.Month;
-                        int year = dtPicker.Value.Year;
-                        start = new DateTime(year, month, 1);
+                        start = new DateTime(dtPicker.Value.Year, dtPicker.Value.Month, 1);
                         end = start.AddMonths(1);
                     }
 
-                    // Load DatBan with details into memory, including MonAn
+                    // Lấy dữ liệu món ăn trong khoảng thời gian
                     var bookings = await db.DatBan
                         .Where(d => d.GioDat >= start && d.GioDat < end)
                         .Include(d => d.ChiTietDatBan.Select(ct => ct.MonAn))
                         .ToListAsync();
 
-                    // Flatten details in memory and compute grouping
                     var details = bookings
                         .SelectMany(d => d.ChiTietDatBan)
-                        .Where(ct => ct != null && ct.MonAn != null)
+                        .Where(ct => ct.MonAn != null)
                         .Select(ct => new
                         {
                             TenMon = ct.MonAn.TenMon ?? string.Empty,
-                            SoLuong = ct.SoLuong
+                            SoLuong = (int?)ct.SoLuong ?? 0,
+                            Gia = (decimal?)ct.MonAn.Gia ?? 0
                         })
                         .ToList();
 
                     var grouped = details
                         .GroupBy(x => x.TenMon)
-                        .Select(g => new
+                        .Select(g => new SoLuongMonAnModel
                         {
                             TenMon = g.Key,
-                            SoLuong = g.Sum(x => x.SoLuong)
+                            SoLuong = g.Sum(x => x.SoLuong),
+                            TongTien = g.Sum(x => x.SoLuong * x.Gia)
                         })
                         .OrderByDescending(x => x.SoLuong)
                         .ToList();
 
-                    var ds = new ReportDataSource("DishQuantityDataset", grouped);
+                    // ✅ Dataset name phải đúng với RDLC
+                    var ds = new ReportDataSource("SoLuongMonDataset", grouped);
                     reportViewer1.LocalReport.DataSources.Add(ds);
 
-                    // Set ReportPeriod parameter (DD/MM or MM/YYYY)
-                    if (rbDay.Checked)
-                        reportViewer1.LocalReport.SetParameters(new ReportParameter("ReportPeriod", $"Ngày: {start:d}"));
-                    else
-                        reportViewer1.LocalReport.SetParameters(new ReportParameter("ReportPeriod", $"Tháng: {start:MM/yyyy}"));
+                    string period = rbDay.Checked ? $"Ngày: {start:dd/MM/yyyy}" : $"Tháng: {start:MM/yyyy}";
+                    reportViewer1.LocalReport.SetParameters(new ReportParameter("ReportPeriod", period));
 
                     reportViewer1.RefreshReport();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi khi tạo báo cáo:\n" + ex.Message + "\n\nStack:\n" + ex.ToString(),
-                    "Lỗi báo cáo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                System.Diagnostics.Debug.WriteLine("SoLuongMon RunReportAsync error: " + ex.ToString());
+                MessageBox.Show($"Lỗi khi tạo báo cáo:\n{ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -262,7 +251,7 @@ namespace BookingPR
 
         private void SoLuongMon_Load(object sender, EventArgs e)
         {
-            // chờ người dùng nhấn "Chạy báo cáo"
+            // Người dùng nhấn nút để chạy
         }
     }
 }

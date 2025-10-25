@@ -116,6 +116,7 @@
     </Compile>
     <Compile Include="Data\ChiTietDatBan.cs" />
     <Compile Include="Data\DatBan.cs" />
+    <Compile Include="Data\ReportModels.cs" />
     <Compile Include="Data\KhachHang.cs" />
     <Compile Include="Data\Model1.cs" />
     <Compile Include="Data\MonAn.cs" />
@@ -227,6 +228,8 @@
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\BookingPR.Data.DoanhThuModel.datasource" />
+    <None Include="Properties\DataSources\BookingPR.Data.SoLuongMonAnModel.datasource" />
     <None Include="Properties\DataSources\DoanhThu.datasource" />
     <None Include="Properties\DataSources\SoLuongMon.datasource" />
     <None Include="Properties\Settings.settings">
@@ -257,7 +260,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

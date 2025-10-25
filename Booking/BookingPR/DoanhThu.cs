@@ -175,17 +175,9 @@ namespace BookingPR
         private async Task RunReportAsync()
         {
             btnRun.Enabled = false;
-            progressBar.Visible = true;
             try
             {
-                var rdlcPath = Path.Combine(Application.StartupPath, "Reports", "DoanhThu.rdlc");
-                if (!File.Exists(rdlcPath))
-                {
-                    MessageBox.Show($"File báo cáo không tìm thấy:\n{rdlcPath}\n\nSet Build Action = Content và Copy to Output Directory = Copy if newer.",
-                        "File RDLC thiếu", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-
+                string rdlcPath = Path.Combine(Application.StartupPath, "Reports", "DoanhThu.rdlc");
                 reportViewer1.Reset();
                 reportViewer1.ProcessingMode = ProcessingMode.Local;
                 reportViewer1.LocalReport.ReportPath = rdlcPath;
@@ -193,96 +185,65 @@ namespace BookingPR
 
                 using (var db = new Model1())
                 {
-                    DateTime start, end;
                     if (rbDay.Checked)
                     {
                         var date = dtPicker.Value.Date;
-                        start = date;
-                        end = start.AddDays(1);
-
-                        // load orders with details and customer
-                        var bookings = await db.DatBan
-                            .Where(d => d.GioDat >= start && d.GioDat < end)
-                            .Include(d => d.KhachHang)
-                            .Include(d => d.ChiTietDatBan.Select(ct => ct.MonAn))
+                        var data = await db.DatBan
+                            .Where(d => DbFunctions.TruncateTime(d.GioDat) == date)
+                            .Select(d => new DoanhThuModel
+                            {
+                                Ngay = d.GioDat.ToString(),
+                                SoLuongHoaDon = 1,
+                                TongDoanhThu = d.ChiTietDatBan.Sum(ct => (decimal?)ct.SoLuong * ct.MonAn.Gia) ?? 0m
+                            })
                             .ToListAsync();
 
-                        var orders = bookings.Select(d => new
+                        reportViewer1.LocalReport.DataSources.Add(
+                            new ReportDataSource("DailyRevenueDataset", data)
+                        );
+                        reportViewer1.LocalReport.SetParameters(new[]
                         {
-                            DatBanID = d.DatBanID,
-                            KhachHang = d.KhachHang?.HoTen ?? string.Empty,
-                            GioDat = d.GioDat,
-                            TongTien = d.ChiTietDatBan?.Sum(ct => (decimal)(ct.SoLuong) * ct.MonAn.Gia) ?? 0m
-                        }).OrderByDescending(x => x.GioDat).ToList();
-
-                        var ds = new ReportDataSource("OrdersDataset", orders);
-                        reportViewer1.LocalReport.DataSources.Add(ds);
-                        reportViewer1.LocalReport.SetParameters(new ReportParameter("ReportPeriod", $"Ngày: {start:d}"));
+                    new ReportParameter("ReportPeriod", $"Ngày: {date:d}")
+                });
                     }
                     else
                     {
                         int month = dtPicker.Value.Month;
                         int year = dtPicker.Value.Year;
-                        start = new DateTime(year, month, 1);
-                        end = start.AddMonths(1);
 
-                        var bookings = await db.DatBan
-                            .Where(d => d.GioDat >= start && d.GioDat < end)
-                            .Include(d => d.ChiTietDatBan.Select(ct => ct.MonAn))
+                        var data = await db.DatBan
+                            .Where(d => d.GioDat.Month == month && d.GioDat.Year == year)
+                            .GroupBy(d => DbFunctions.TruncateTime(d.GioDat))
+                            .Select(g => new DoanhThuModel
+                            {
+                                Ngay = g.Key.Value.ToString(),
+                                SoLuongHoaDon = g.Count(),
+                                TongDoanhThu = g.Sum(d => d.ChiTietDatBan.Sum(ct => (decimal?)ct.SoLuong * ct.MonAn.Gia)) ?? 0m
+                            })
                             .ToListAsync();
 
-                        var details = bookings
-                            .SelectMany(d => d.ChiTietDatBan)
-                            .Where(ct => ct != null && ct.MonAn != null)
-                            .Select(ct => new
-                            {
-                                Date = DbFunctions.TruncateTime(ct.DatBan.GioDat) ?? DbFunctions.TruncateTime(ct.DatBan.GioDat),
-                                Amount = (decimal)ct.SoLuong * ct.MonAn.Gia,
-                                DateValue = ct.DatBan.GioDat.Date
-                            })
-                            .ToList();
-
-                        var daily = details
-                            .GroupBy(x => x.DateValue)
-                            .Select(g => new
-                            {
-                                Ngay = g.Key.ToString("d"),
-                                DoanhThu = g.Sum(x => x.Amount)
-                            })
-                            .OrderBy(x => x.Ngay)
-                            .ToList();
-
-                        var ds = new ReportDataSource("DailyRevenueDataset", daily);
-                        reportViewer1.LocalReport.DataSources.Add(ds);
-                        reportViewer1.LocalReport.SetParameters(new ReportParameter("ReportPeriod", $"Tháng: {start:MM/yyyy}"));
+                        reportViewer1.LocalReport.DataSources.Add(
+                            new ReportDataSource("DailyRevenueDataset", data)
+                        );
+                        reportViewer1.LocalReport.SetParameters(new[]
+                        {
+                    new ReportParameter("ReportPeriod", $"Tháng {month}/{year}")
+                });
                     }
 
-                    try
-                    {
-                        reportViewer1.RefreshReport();
-                    }
-                    catch (Exception rex)
-                    {
-                        // Detailed info from report processing
-                        var inner = rex.InnerException != null ? rex.InnerException.Message : "<no inner>";
-                        MessageBox.Show($"Lỗi khi xử lý report:\n{rex.Message}\nInner: {inner}\n\nXem Output/Debug để biết stacktrace.",
-                            "Lỗi report", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        System.Diagnostics.Debug.WriteLine("Report processing error: " + rex.ToString());
-                    }
+                    reportViewer1.RefreshReport();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi khi tạo báo cáo:\n" + ex.Message + "\n\nInner:\n" + (ex.InnerException?.Message ?? "<none>") + "\n\nStack:\n" + ex.ToString(),
-                    "Lỗi báo cáo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                System.Diagnostics.Debug.WriteLine("DoanhThu RunReportAsync error: " + ex.ToString());
+                MessageBox.Show("Lỗi khi tạo báo cáo: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
                 btnRun.Enabled = true;
-                progressBar.Visible = false;
             }
         }
+
 
         private void DoanhThu_Load(object sender, EventArgs e)
         {
